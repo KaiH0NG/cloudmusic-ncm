@@ -28,18 +28,17 @@ NCMConverter.exe "C:\Users\YourName\Music\VipSongs"
 
 ## 📦 下载
 
-直接下载 Releases 中的 `NCMConverter.exe` 即可使用（已包含 ncmdump.exe）。
+直接下载 Releases 中的 `NCMConverter.exe` 即可使用（已内置 ncmdump.exe）。
 
 ## ⚠️ 注意事项
 
 - 转换出来的格式是 **MP3**（网易云 NCM 本身加密的就是 MP3）
-- `ncmdump.exe` 已内置在 Releases 中，无需额外下载
+- `ncmdump.exe` 已内置，无需额外下载
 - 仅支持 Windows 系统
 
 ## 🔧 依赖
 
 - Python 3.x（源码运行）
-- PyInstaller（打包成 exe）
 - [ncmdump](https://github.com/nICkname02/NCM批量下载转换)（已内置）
 
 ## 📁 项目结构
@@ -48,9 +47,8 @@ NCMConverter.exe "C:\Users\YourName\Music\VipSongs"
 ncm-batch-converter/
 ├── ncm_converter.py     # 源码
 ├── ncmdump.exe          # 转换工具（已内置）
-└── NCMConverter.exe     # 打包好的可执行文件
+├── NCMConverter.exe     # 打包好的可执行文件
+└── README.md            # 说明文档
 ```
 
 ## ⭐ 如果觉得好用，欢迎点个 Star！
-
-Your star is my motivation 💢
