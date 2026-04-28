@@ -1,0 +1,4 @@
+# Python dependencies (for building from source)
+# Run: pip install -r requirements.txt
+
+pyinstaller>=6.0.0

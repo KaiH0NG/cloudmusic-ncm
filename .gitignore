@@ -1,13 +1,30 @@
 # Build outputs
 dist/
 build/
-*.spec
-__pycache__/
-*.pyc
+*.egg-info/
+NCMConverter.spec
+NCMConverter.exe
+ncmdump.exe
 
-# OS files
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Not needed for release
+# Logs
 *.log
