@@ -71,7 +71,7 @@ pyinstaller --onefile --name NCMConverter ncm_converter.py
 ## 📁 项目结构
 
 ```
-ncm-batch-converter/
+cloudmusic-ncm/
 ├── ncm_converter.py      # Python 源码
 ├── ncmdump.exe           # NCM 转换工具
 ├── NCMConverter.exe       # 打包好的可执行文件
