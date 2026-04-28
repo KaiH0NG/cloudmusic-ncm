@@ -3,7 +3,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Platform-Windows-blue?style=for-the-badge" alt="Platform">
   <img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License">
-  <img src="https://img.shields.io/github/stars/Kai-403/ncm-batch-converter?style=for-the-badge" alt="Stars">
+  <img src="https://img.shields.io/github/stars/KaiH0NG/cloudmusic-ncm?style=for-the-badge" alt="Stars">
 </p>
 
 > 把网易云音乐 VIP 下载的 `.ncm` 文件批量转换成 `.mp3` 文件。拖拽文件夹即可使用，无需复杂配置。
@@ -56,7 +56,7 @@ NCMConverter.exe "H:\CloudMusic\VipSongsDownload"
 
 ```bash
 # 克隆项目
-git clone https://github.com/Kai-403/ncm-batch-converter.git
+git clone https://github.com/KaiH0NG/cloudmusic-ncm.git
 
 # 安装 Python 依赖（仅转换脚本需要）
 pip install pyinstaller
